@@ -1,0 +1,12 @@
+npm init
+
+npm init bcrypt                           password ko 
+         cloudinary                       image ko cloud pr save karne ke kam aata hai 
+         cookie-parser                     cookie  generate hone ke bad get kar sake
+         cors                             frontend aur backend ko connect karne ke liye karte hai
+         dotenv                           for secreat file 
+         express                          node js framework
+         mongoose                         mongodb use kar saktehai 
+         express-fileupload
+         jsonwebtoken                     token generate karne ke liye use karte hai 
+         validator                        email ko validate karne ke liye karte hai 
