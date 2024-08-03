@@ -4,6 +4,17 @@ import cors from "cors";
 import cookieParser from "cookie-parser";
 import fileUpload from "express-fileupload";
 import { dbConnection } from "./database/dbConnection.js";
+import messageRouter from "./router/messageRouter.js";
+
+
+
+
+
+
+
+
+
+
 
 const app = express();
 config({
@@ -29,6 +40,10 @@ app.use(
   })
 );
 
+
+
+
+app.use("/api/v1/message", messageRouter);
 dbConnection();
 
 export default app;
