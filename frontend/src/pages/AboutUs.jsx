@@ -1,11 +1,16 @@
-import React from 'react'
-
-function AboutUs() {
+import React from "react";
+import Hero from "../component/Hero";
+import Biography from "../component/Biography";
+const AboutUs = () => {
   return (
-    <div>
-      aboutus
-    </div>
-  )
-}
+    <>
+      <Hero
+        title={"Learn More About Us | ZeeCare Medical Institute"}
+        imageUrl={"/about.png"}
+      />
+      <Biography imageUrl={"/whoweare.png"} />
+    </>
+  );
+};
 
-export default AboutUs
+export default AboutUs;
